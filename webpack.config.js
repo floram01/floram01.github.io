@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/main.js',
     // Where should the compiled file go?
     output: {
-      filename: 'bundle.js'
+      filename: 'dist/bundle.js'
     },
     resolve: {
     alias: {
@@ -44,6 +44,6 @@ module.exports = {
     ]
   },
   devServer: {
-         port: 3000
+      port: 3000
      }
   }
